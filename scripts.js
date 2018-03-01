@@ -30,7 +30,7 @@ $(document).ready(function(){
 			tmp += txt[i];
 
 			if(i % 5 == 4)
-				tmp += ' ';
+				tmp += '';
 		}
 
 		return tmp;
@@ -106,7 +106,7 @@ $(document).ready(function(){
 				for(var i = 0; i < msg.length; i++){
 					var msgTmp	= msg[i].charCodeAt();
 					var keyTmp	= key[i].charCodeAt();
-					var tmp		= msgTmp + keyTmp - (A - 1);
+					var tmp		= msgTmp + keyTmp - (A);
 
 					//-- Roll over if value passes Z --
 					if(tmp > Z)
@@ -131,7 +131,7 @@ $(document).ready(function(){
 				{
 					var msgTmp	= msg[i].charCodeAt();
 					var keyTmp	= key[i].charCodeAt();
-					var tmp		= msgTmp - keyTmp + (A - 1);
+					var tmp		= msgTmp - keyTmp + (A);
 
 					//-- Roll over if value passes A --
 					if(tmp < A)
