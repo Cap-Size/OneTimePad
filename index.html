@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>One Time Pad</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+        <script src="jquery.alphanumeric.pack.js"></script>
+		<script src="scripts.js"></script>
+    </head>
+    <body>
+        <div id="main1">
+            <h1 style="background-color: #479966; margin:auto; text-align: center;">One Time Pad For ISU...</h1><br>
+            <h3>To Secret Message</h3>
+            <textarea id="input" name="input" cols="40" rows="8" placeholder="type message here:"></textarea>
+            <textarea id="key" name="key" cols="40" rows="8" placeholder="type key here:"></textarea>
+            <textarea id="output" name="output" cols="40" rows="7" placeholder="secret message displayed here"></textarea>
+            <br>
+            <button id="encrypt" type="button" style="background-color: #479966; color: #fff; border: none;padding: 15px 32px;">Encode</button>
+            <button id="decrypt" type="button" style="background-color: #479966; color: #fff; border: none;padding: 15px 32px;">Decode</button>
+            <button id="reset" type="button" style="background-color: #479966; color: #fff; border: none;padding: 15px 32px;">Reset</button>
+            <script type="text/javascript" src="oneTime.js"></script>
+        </div>
+    </body>
+</html>

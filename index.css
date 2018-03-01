@@ -1,0 +1,22 @@
+body{
+    --primary: #1b4b3d;
+    --dark: #1b1b1b;
+    --light: #6d6d6d;
+    background: var(--primary);
+    color: #fff;
+    font-family: 'Bellefair', serif;
+}
+textarea{
+    font-family: 'Bellefair', serif;
+    font-size: 1.2em;
+    background: var(--dark);
+    border: 2px solid var(--light);
+    color: white;
+}
+textarea:focus{
+    outline: solid;
+    outline-color: #819ca9;
+}
+#main1{
+
+}
